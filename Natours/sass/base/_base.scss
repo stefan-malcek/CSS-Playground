@@ -1,0 +1,19 @@
+/* Reset browser defaults. */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* Set font size to 10px. Scales if a user changes defaults. */
+  // This defines what 1rem is.
+  font-size: 62.5%;
+}
+
+body {
+  /* Inherit box-sizing. */
+  box-sizing: border-box;
+}
